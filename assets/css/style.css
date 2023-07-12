@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-
+/*sets the header color for the background and text, the font and aligns the items in the header*/
 header{
     background-color: black;
     font-family: 'Futura ZBlk BT', 'LITHOGRAPH', 'sans-serif';
@@ -13,7 +13,7 @@ header{
     padding: 1%;
     color: #ffff;
 }
-
+/*sets the color for the link to github as well as the font size and spacing*/
 #github{
     color: #ffff;
     margin-right: 30px;
@@ -21,16 +21,16 @@ header{
     font-style: bold;
     text-decoration: none;
 }
-
+/*sets the size of the github icon*/
 #github-icon{
     width: 20px;
     height: 20px;
 }
-
+/*sets the color of the link when it is hovered over*/
 #github:hover{
     color: red;
 }
-
+/*sets the profile pic to the size and centers it*/
 .self-image {
     background-image: url("../images/IMG_0639.JPG");
     background-position: center;
@@ -42,13 +42,13 @@ header{
     border: 10px;
     margin: 20px;
 }
-
+/*sets the background image and size for the body*/
 body{
     background-image: url("../images/background-image.jpg");
     width: 100%;
     height: 500px;
 }
-
+/*sets the header elments to the center and gives it a margin between the details*/
 h2 , h3{
     text-align: center;
     margin-top: 25px;
@@ -58,7 +58,7 @@ h2 , h3{
     color: white;
 }
 
-
+/*sets the margin around the about me paragraph and the color of the background and text*/
 .about{
    margin-bottom:20px;
    padding: 60px;
@@ -75,7 +75,7 @@ h2 , h3{
    border: 10px inset rgb(231, 124, 124);
    border: 10px outset rgb(219, 121, 121);
 }
-
+/*sets the margin and centers the image icons*/
 .work{
     margin-bottom: 20px;
     padding: 25px;
@@ -88,55 +88,55 @@ h2 , h3{
     justify-content: center;
     width: 100%;
 }
-
+/*sets the picture links to sit side by side*/
 .projects{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     column-gap: 50px;
     list-style-type: none;
 }
-
+/*sets the dimensions of the image link for the bowtie cat image*/
 #bowtie-cat{
     height: 200px;
     width: 100%;
     object-fit: cover;
 }
-
+/*sets the shadow of the image link when hovered over*/
 #bowtie-cat:hover{
     box-shadow: 10px 10px 5px rgb(26, 73, 110);
 }
-
+/*sets the image link size*/
 #background-1{
     height: 200px;
     width: 100%;
     object-fit: cover;
 }
-
+/*sets the shadow of the image link when hovered over*/
 #background-1:hover{
     box-shadow: 10px 10px 5px rgb(26, 73, 110);
 }
-
+/*sets the image link size*/
 #background-2{
     height: 200px;
     width: 100%;
     object-fit: cover;
 }
-
+/*sets the shadow of the image link when hovered over*/
 #background-2:hover{
     box-shadow: 10px 10px 5px rgb(26, 73, 110);
 }
-
+/*sets the color of the links*/
 .coming-soon , .coming-again , .study{
     color: white;
     text-decoration: none;
     font-style: bold;
     font-size: 20px;
 }
-
+/*sets the color of the link when it is hovered over*/
 .coming-soon:hover , .coming-again:hover , .study:hover{
     color: red;
 }
-
+/*sets the font size, font, the padding, and align*/
 .contact-me{
     font-family: 'Futura ZBlk BT', 'LITHOGRAPH', 'sans-serif';
     display: flex;
@@ -147,7 +147,7 @@ h2 , h3{
     list-style-type: none;
     margin: 20px;
 }
-
+/*sets the font color and the padding around the links*/
 .phone , .email , .linkedin{
     color: white;
     text-decoration: none;
@@ -159,7 +159,7 @@ h2 , h3{
     padding: 10px;
     border: 5px inset black;
 }
-
+/*sets the color of the links when you hover over them*/
 .email:hover , .linkedin:hover{
     color: red;
 }
