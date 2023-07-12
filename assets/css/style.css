@@ -163,3 +163,24 @@ h2 , h3{
 .email:hover , .linkedin:hover{
     color: red;
 }
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+      background: black;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: black;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: black;
+    }
+  }
