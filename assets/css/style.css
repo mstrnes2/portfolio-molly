@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    font-family: 'Futura ZBlk BT', 'LITHOGRAPH', 'sans-serif';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    color: #ffff;
+}
+
+#github{
+    color: #ffff;
+    margin-right: 30px;
+    font-size: 20px;
+    font-style: bold;
+    text-decoration: none;
+}
+
+#github-icon{
+    width: 20px;
+    height: 20px;
+}
+
+#github:hover{
+    color: red;
+}
+
+
+.forest-image {
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/colorful.jpg");
+    background-position: center;
+    padding: 25%;
+
+}
+
+
+.self-image {
+    background-image: url("../images/IMG_0639.JPG");
+    background-position: left;
+    height: 150px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+h2 , h3{
+    text-align: center;
+    margin-top: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    background-color: red;
+    margin: 10px;
+    border: 10px;
+    color: black;
+}
+
+
+.about{
+   margin-bottom:20px;
+   padding: 25px;
+   height: 300px;
+   background-color:rgb(23, 72, 207);
+   color: white;
+   text-align: left;
+   align-items: center;
+   border: 10px;
+   margin: 20px;
+   display: flex;
+}
+
+.work{
+    margin-bottom: 20px;
+    padding: 25px;
+    height: 300px;
+    background-color:rgb(28, 56, 28);
+    color: white;
+    display: flex;
+    align-items: center;
+    border: 10px;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    list-style-type: none;
+}
+
+#bowtie-cat{
+    height: 200px;
+    width: 100%;
+}
+
+#bowtie-cat:hover{
+    box-shadow: 10px 10px 5px black;
+}
+
+.prework{
+    position: absolute;
+    bottom: 80px;
+    left: 90px;
+    color: black;
+}
+
+#background-1{
+    height: 200px;
+    width: 100%;
+}
+
+.project-1{
+    position: flex;
+    bottom: 80px;
+    left: 410px;
+}
+
+.project-2{
+    position: flex;
+    bottom: 80px;
+    right: 110px;
+}
+
+#background-1:hover{
+    box-shadow: 10px 10px 5px rgb(73, 2, 2);
+}
+
+#background-2{
+    height: 200px;
+    width: 100%;
+}
+
+#background-2:hover{
+    box-shadow: 10px 10px 5px black;
+}
