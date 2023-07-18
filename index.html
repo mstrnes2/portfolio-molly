@@ -1,43 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-        <title>Molly's Portfolio</title>
-    </head>
-    
-    <body>
-        <header>
-            <h1>Molly Starnes</h1>
-            <a href="https://github.com/mstrnes2" id="github" alt="github cat icon"><img src="./assets/images/github-mark-white.png" id="github-icon">GitHub</a>
-        </header>
-        <div class="self-image" alt="picture of Molly"></div>
-        <main>
-            <h2>About me</h2>
-                <section  class="about">
-                    <p>Hello, I'm Molly. I am a new web developer with a little experience in HTML/CSS and JavaScript. I am a go getter with a can do attitude! I have excellent time management skills 
-                        and I learn fast and work hard to get to any goals that I need/want to achieve.  I am currently in a fullstack coding bootcamp at Vanderbuilt University. </p>
-                </section>
-                <h2>Work</h2>
-                <section class="work">
-                    <ul class="projects">
-                        <li><a href="https://mstrnes2.github.io/prework-study-guide/" id="prework"><img src="./assets/images/bowtie-cat.png" id="bowtie-cat" alt="picture of a cat with bowtie"><span class ="study">Prework Study Guide</span></a>
-                        <li><a href="#"><img src="./assets/images/background.jpg" id="background-1" alt="black picture with blue fire"><span class ="coming-soon">Coming Soon!</span></a>
-                        <li><a href="#"><img src="./assets/images/background.jpg" id="background-2" alt="black picture with blue fire"><span class ="coming-again">Coming Soon!</span></a></li>
-                    </ul>
-                </section>
-            </div>
-        </main>
 
-        <footer>
-            <h3>Contact Me</h3>
-            <ul class = "contact-me">
-                <li><span class ="phone">Phone: 901-833-5849</span></li>
-                <li><a href= "mailto: mstrnes2@gmail.com"><span class ="email">Email</span></a></li>
-                <li><a href="www.linkedin.com/in/molly-starnes-860819147"><span class ="linkedin">LinkedIn</span></a></li>
-            </ul>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <title>Molly's Portfolio</title>
+</head>
 
-        </footer>
-    </body>
+<body>
+    <header>
+        <h1>Molly Starnes</h1>
+        <a href="#about-me" id="link-about">About Me</a>
+        <a href="#my-work" id="link-work">Work</a>
+        <a href="#contact" id="link-contact">Contact Me</a>
+        <a href="https://github.com/mstrnes2" id="github" alt="github cat icon"><img
+                    src="./assets/images/github-mark-white.png" id="github-icon">GitHub</a>
+    </header>
+    <div class="self-image" alt="picture of Molly"></div>
+    <main>
+        <h2 id="about-me">About me</h2>
+        <section class="about">
+            <p>Hello, I'm Molly. I am a new web developer with a little experience in HTML/CSS and JavaScript. I am a go
+                getter with a can do attitude! I have excellent time management skills
+                and I learn fast and work hard to get to any goals that I need/want to achieve. I am currently in a
+                fullstack coding bootcamp at Vanderbuilt University. </p>
+        </section>
+        <h2 id="my-work">Work</h2>
+        <section class="work">
+            <a href="https://mstrnes2.github.io/prework-study-guide/" id="prework">
+                    <span
+                    class="study">Prework Study Guide</span>
+                </a>
+            <a href="#"><img src="./assets/images/background.jpg" id="background-1"
+                    alt="black picture with blue fire"><span class="coming-soon">Coming Soon!</span></a>
+            <a href="#"><img src="./assets/images/background.jpg" id="background-2"
+                    alt="black picture with blue fire"><span class="coming-again">Coming Soon!</span></a>
+        </section>
+        </div>
+    </main>
+
+    <footer>
+        <h3 id="contact">Contact Me</h3>
+        <ul class="contact-me">
+            <li><span class="phone">Phone: 901-833-5849</span></li>
+            <li><a href="mailto: mstrnes2@gmail.com"><span class="email">Email</span></a></li>
+            <li><a href="www.linkedin.com/in/molly-starnes-860819147"><span class="linkedin">LinkedIn</span></a></li>
+        </ul>
+
+    </footer>
+</body>
+
 </html>

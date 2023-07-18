@@ -13,6 +13,17 @@ header{
     padding: 1%;
     color: #ffff;
 }
+
+#link-about , #link-work , #link-contact{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: bold;
+}
+
+#link-about:hover , #link-work:hover , #link-contact:hover{
+    color: red;
+}
 /*sets the color for the link to github as well as the font size and spacing*/
 #github{
     color: #ffff;
@@ -46,7 +57,6 @@ header{
 body{
     background-image: url("../images/background-image.jpg");
     width: 100%;
-    height: 500px;
 }
 /*sets the header elments to the center and gives it a margin between the details*/
 h2 , h3{
@@ -62,13 +72,14 @@ h2 , h3{
 .about{
    margin-bottom:20px;
    padding: 60px;
-   height: 250px;
    color: black;
    text-align: left;
    align-items: center;
    border: 10px;
    margin: 20px;
    display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
    background-color:azure;
    font-size: 30px;
    border-radius:30px;
@@ -79,30 +90,33 @@ h2 , h3{
 .work{
     margin-bottom: 20px;
     padding: 25px;
-    height: 250px;
-    color: white;
+    color: rgb(224, 156, 156);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     border-color: white;
     justify-content: center;
     width: 100%;
 }
-/*sets the picture links to sit side by side*/
-.projects{
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    column-gap: 50px;
-    list-style-type: none;
+.work a{
+    min-height: 180px;
+    max-height: 180px;
+    flex-basis: calc(50% - 3em);
+    margin: 1.5em;
 }
-/*sets the dimensions of the image link for the bowtie cat image*/
-#bowtie-cat{
-    height: 200px;
-    width: 100%;
-    object-fit: cover;
+.work a:first-child{
+    min-height: 300px;
+    flex-basis: 100%;
+    background-image: url(../images/bowtie-cat.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    background-color: rgb(193, 226, 230);
 }
+
 /*sets the shadow of the image link when hovered over*/
-#bowtie-cat:hover{
+.work a:first-child:hover{
     box-shadow: 10px 10px 5px rgb(26, 73, 110);
 }
 /*sets the image link size*/
@@ -127,7 +141,7 @@ h2 , h3{
 }
 /*sets the color of the links*/
 .coming-soon , .coming-again , .study{
-    color: white;
+    color: rgb(40, 90, 230);
     text-decoration: none;
     font-style: bold;
     font-size: 20px;
@@ -146,6 +160,7 @@ h2 , h3{
     color: #ffff;
     list-style-type: none;
     margin: 20px;
+    flex-wrap: wrap;
 }
 /*sets the font color and the padding around the links*/
 .phone , .email , .linkedin{
@@ -158,29 +173,10 @@ h2 , h3{
     margin: 10px;
     padding: 10px;
     border: 5px inset black;
+    display: flex;
 }
 /*sets the color of the links when you hover over them*/
 .email:hover , .linkedin:hover{
     color: red;
 }
 
-/* Tablets - header changes color */
-@media screen and (max-width: 992px) {
-    header {
-      background: black;
-    }
-  }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: black;
-    }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: black;
-    }
-  }
