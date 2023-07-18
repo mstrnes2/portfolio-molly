@@ -12,6 +12,7 @@ header{
     justify-content: space-between;
     padding: 1%;
     color: #ffff;
+    flex-wrap: wrap;
 }
 
 #link-about , #link-work , #link-contact{

@@ -4,9 +4,14 @@
 
 In this project I am building a portfolio to showcase my work. I did this to be able to set a porfolio up with my projects later to show companies what I am capable of. I learned alot about CSS in this project with background images and styling to borders and fonts.
 
-## Installation
+## Application
 
-N/A
+Screenshot of application:
+```md
+![alt text](assets/images/Screenshot%20(5).png)
+```
+
+Application link: 
 
 ## Usage
 
