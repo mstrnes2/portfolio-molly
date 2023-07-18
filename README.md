@@ -11,7 +11,7 @@ Screenshot of application:
 ![alt text](assets/images/Screenshot%20(5).png)
 ```
 
-Application link: 
+Application link: https://mstrnes2.github.io/portfolio-molly/
 
 ## Usage
 
